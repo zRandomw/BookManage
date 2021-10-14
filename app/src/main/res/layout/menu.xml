@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tushu"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textSize="24sp"
+        android:background="@drawable/minute_add2"
+        android:text="图书"/>
+    <TextView
+        android:id="@+id/jieyue1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="24sp"
+        android:background="@drawable/minute_add2"
+        android:text="借阅信息"/>
+    <TextView
+        android:id="@+id/huanshu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="24sp"
+        android:background="@drawable/minute_add2"
+        android:text="还书记录"/>
+
+</LinearLayout>
